@@ -2,7 +2,30 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+body, html, .container-fluid {
+     height: 100%;
+}
 
 .center{
     text-align: center;
+}
+.scroll{
+    overflow: scroll;
+}
+/*.back{
+    background-color: #eaeaea;
+}*/
+
+
+.main{
+    height: 300px;
+    width:cover;
+}
+
+#middle_window{
+    background-color: rgb(255,110,53,0.85);   
+}
+#logo{
+    padding-bottom: 25px;
+    
 }
