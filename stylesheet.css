@@ -1,9 +1,13 @@
 body{
     font-family: 'Oswald', sans-serif;
+    
 }
 
 body, html, .container-fluid {
      height: 100%;
+}
+ul{
+    list-style: none;
 }
 
 .center{
@@ -12,20 +16,26 @@ body, html, .container-fluid {
 .scroll{
     overflow: scroll;
 }
-/*.back{
-    background-color: #eaeaea;
-}*/
+
+.text{
+    font-family: 'Oswald', sans-serif;
+}
 
 
 .main{
     height: 300px;
     width:cover;
+    
+}
+#mglogo{
+    align-content: center; 
 }
 
 #middle_window{
-    background-color: rgb(255,110,53,0.85);   
+    background-color: rgb(255,110,53,0.85);
+    border: 3px;
+    border-color: #AAAAAA;
 }
 #logo{
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px;  
 }
